@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>High School Sports Online - Stream Live & On Demand</title>
+    <meta name="description"
+        content="Stream sports and other activities from high schools across the USA, both live and on demand, via NFHS Network. Watch online from home or on the go. Create a free membership.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <header>
+        <nav class="menu">
+            <ul>
+                <li id="home"><a href="#"><img src="https://www.nfhsnetwork.com/_nuxt/img/3c95376.svg"></a></li>
+                <li>
+                    <a href="#">
+                        Watch Events
+                        <span class="live-events">
+                            307 Live
+                        </span>
+                    </a>
+                </li>
+                <li><a href="#">Browse</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="video-background"><video preload="auto" autoplay="autoplay" muted="muted"
+                    webkit-playsinline="true" playsinline="true" loop="loop" id="homeVideo"
+                    poster="https://www.nfhsnetwork.com/_nuxt/img/splash-placeholder.jpg">
+                    <!-- <source src="https://cfassets.nfhsnetwork.com/vids/splash-desktop.mp4" type="video/mp4"> -->
+                </video>
+                <div class="gradient"></div>
+                <div class="intro">
+                    <div class="logo"><img src="https://www.nfhsnetwork.com/_nuxt/img/3c95376.svg" alt="NFHS Network">
+                    </div>
+                    <h1>Watch High School Sports <span class="sr-hidden">Online</span></h1>
+                    <p>
+                    Stream thousands of Live and On Demand
+                    high school sporting events from across
+                    the country on any device.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="search">
+            <h2>Search upcoming events</h2>
+            <div>
+                <label for="state-association-select">Select State Association</label>
+                <br>
+                <select name="state-association" id="state-association-select">
+                    <option value="">Please choose</option>
+                    <option value="18bad24aaa">GHSA</option>
+                    <option value="542bc38f95">UIL</option>
+                </select>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="main.js" defer></script>
+</body>
+
+</html>
