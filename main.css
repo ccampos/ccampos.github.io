@@ -147,7 +147,7 @@ main video {
     text-align: center;
     width: 100%;
     position: absolute;
-    top: 712px;
+    top: 772px;
     color: #dd1a34;
 }
 
@@ -162,7 +162,7 @@ main video {
     text-align: center;
     width: 100%;
     position: absolute;
-    top: 722px;
+    top: 780px;
 }
 
 #results table {
@@ -206,6 +206,10 @@ main video {
         width: 134px;
     }
 
+    #results {
+        top: 722px;
+    }
+
     #results table {
         font-size: medium;
     }
@@ -216,5 +220,9 @@ main video {
 
     #search div .date {
         display: inline-block;
+    }
+
+    #application_message {
+        top: 712px;
     }
 }
