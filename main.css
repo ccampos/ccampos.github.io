@@ -129,9 +129,26 @@ main video {
     background-image: linear-gradient(180deg,rgba(7,18,27,0),#09121a);
 }
 
+#search .date {
+    border-radius: 7px;
+    margin: 10px auto 0 auto;
+    padding: 6px 0 8px 0;
+    background: none;
+    width: 80%;
+    max-width: 200px;;
+}
+
 #search h2, #search h3 {
     margin-left: auto;
     margin-right: auto;
+}
+
+#application_message {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 712px;
+    color: #dd1a34;
 }
 
 #state-association-select {
@@ -139,6 +156,37 @@ main video {
     color: #ffffff;
     margin: 8px 0 0 0;
     padding: 5px;
+}
+
+#results {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 722px;
+}
+
+#results table {
+    display: none;
+    margin: 20px auto 0;
+    font-size: small;
+}
+
+#results table thead tr {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#results table thead,
+#results table tbody tr:nth-child(even) {
+    background-color: #072641;
+}
+
+#results table tbody tr td {
+    height: 62px;
+}
+
+#results table .headline {
+    text-transform: capitalize;
 }
 
 @media (min-width: 992px) {
@@ -156,5 +204,17 @@ main video {
 
     .video-background .intro .logo img {
         width: 134px;
+    }
+
+    #results table {
+        font-size: medium;
+    }
+
+    #search > div {
+        width: 500px;
+    }
+
+    #search div .date {
+        display: inline-block;
     }
 }
