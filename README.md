@@ -1,1 +1,1 @@
-# play-on-sports
+# PlayOn Sports Coding Challenge
